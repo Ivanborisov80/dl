@@ -1,0 +1,16 @@
+text,label,predicted_classification,confidence_score,spam_score,legitimate_score,explanation,correct
+"Congratulations! You've won $1,000,000! Click here to claim your prize now!",SPAM,SPAM,0.95,14,0,SPAM indicators: money_keywords: 1 matches (score: +2); urgency_keywords: 1 matches (score: +2); offer_keywords: 1 matches (score: +2),True
+"Hi John, can we schedule a meeting for tomorrow at 2 PM to discuss the project?",NOT_SPAM,NOT_SPAM,0.8,0,6,LEGITIMATE indicators: business_keywords: 3 matches (score: +6),True
+URGENT: Your account will be suspended! Verify your identity immediately by clicking this link.,SPAM,SPAM,0.85,10,0,SPAM indicators: urgency_keywords: 2 matches (score: +4); suspicious_keywords: 2 matches (score: +6),True
+Thank you for your purchase. Your order #12345 will be delivered within 3-5 business days.,NOT_SPAM,NOT_SPAM,0.6,0,1,LEGITIMATE indicators: personal_keywords: 1 matches (score: +1),True
+Buy cheap medications online! No prescription needed! Discount 90%!!!,SPAM,SPAM,0.9,11,0,SPAM indicators: offer_keywords: 1 matches (score: +2); medical_keywords: 2 matches (score: +6); excessive_punctuation: 1 matches (score: +1),True
+Reminder: Your appointment with Dr. Smith is scheduled for Friday at 10:30 AM.,NOT_SPAM,NOT_SPAM,0.8,0,4,LEGITIMATE indicators: business_keywords: 2 matches (score: +4),True
+Make money fast! Work from home! Earn $5000 per week! No experience required!,SPAM,SPAM,0.95,14,0,SPAM indicators: money_keywords: 3 matches (score: +6); work_from_home: 3 matches (score: +6); Excessive exclamation marks: 4 (score: +2),True
+The quarterly report is ready for review. Please find it attached to this email.,NOT_SPAM,NOT_SPAM,0.8,0,7,LEGITIMATE indicators: business_keywords: 1 matches (score: +2); personal_keywords: 1 matches (score: +1),True
+FREE iPhone 15! Limited time offer! Click now before it's too late!,SPAM,SPAM,0.85,10,0,SPAM indicators: urgency_keywords: 2 matches (score: +4); offer_keywords: 2 matches (score: +4); Excessive exclamation marks: 3 (score: +2),True
+Could you please review the attached document and provide feedback by Friday?,NOT_SPAM,NOT_SPAM,0.8,0,9,LEGITIMATE indicators: business_keywords: 1 matches (score: +2); personal_keywords: 1 matches (score: +1),True
+Lose 30 pounds in 30 days! Guaranteed results or your money back!,SPAM,SPAM,0.65,2,0,SPAM indicators: money_keywords: 1 matches (score: +2),True
+Happy birthday! Hope you have a wonderful day celebrating with family and friends.,NOT_SPAM,NOT_SPAM,0.8,0,3,LEGITIMATE indicators: personal_keywords: 3 matches (score: +3),True
+WINNER! You have been selected to receive a $500 gift card. Claim now!,SPAM,SPAM,0.95,13,0,SPAM indicators: money_keywords: 1 matches (score: +2); urgency_keywords: 1 matches (score: +2); offer_keywords: 3 matches (score: +6),True
+The meeting has been rescheduled to Thursday at 3 PM. Please confirm your attendance.,NOT_SPAM,NOT_SPAM,0.6,3,7,SPAM indicators: suspicious_keywords: 1 matches (score: +3) | LEGITIMATE indicators: business_keywords: 2 matches (score: +4); personal_keywords: 1 matches (score: +1),True
+Get rich quick! Secret method revealed! Only $19.99 for limited time!,SPAM,SPAM,0.75,8,0,SPAM indicators: money_keywords: 2 matches (score: +4); urgency_keywords: 1 matches (score: +2); Excessive exclamation marks: 3 (score: +2),True
