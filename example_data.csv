@@ -1,0 +1,16 @@
+text,label
+"Congratulations! You've won $1,000,000! Click here to claim your prize now!",SPAM
+"Hi John, can we schedule a meeting for tomorrow at 2 PM to discuss the project?",NOT_SPAM
+"URGENT: Your account will be suspended! Verify your identity immediately by clicking this link.",SPAM
+"Thank you for your purchase. Your order #12345 will be delivered within 3-5 business days.",NOT_SPAM
+"Buy cheap medications online! No prescription needed! Discount 90%!!!",SPAM
+"Reminder: Your appointment with Dr. Smith is scheduled for Friday at 10:30 AM.",NOT_SPAM
+"Make money fast! Work from home! Earn $5000 per week! No experience required!",SPAM
+"The quarterly report is ready for review. Please find it attached to this email.",NOT_SPAM
+"FREE iPhone 15! Limited time offer! Click now before it's too late!",SPAM
+"Could you please review the attached document and provide feedback by Friday?",NOT_SPAM
+"Lose 30 pounds in 30 days! Guaranteed results or your money back!",SPAM
+"Happy birthday! Hope you have a wonderful day celebrating with family and friends.",NOT_SPAM
+"WINNER! You have been selected to receive a $500 gift card. Claim now!",SPAM
+"The meeting has been rescheduled to Thursday at 3 PM. Please confirm your attendance.",NOT_SPAM
+"Get rich quick! Secret method revealed! Only $19.99 for limited time!",SPAM
